@@ -168,6 +168,18 @@ button:not(:disabled),
   height: auto;
 }
 
+.banner {
+ height: 50vh;
+ background: url(../img/banner.jpg) no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ overflow: hidden;
+ padding-top: 30px;
+transition: 0,1s;
+}
+
+  
 .container,
 .container-fluid {
   width: 100%;
